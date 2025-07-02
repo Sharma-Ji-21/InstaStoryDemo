@@ -2,6 +2,8 @@
 
 A Flutter application mimicking Instagram's story viewer with smooth animations, gesture-based navigation, and modular design. Built to demonstrate Flutter performance, scalability, and intuitive UI/UX principles.
 
+### [Download APK](https://drive.google.com/drive/folders/1e_ZIus--vYDuEbWAUpV9zgL6l_l1dk9j?usp=sharing)
+
 ## 🚀 Features
 
 ### Core
