@@ -62,7 +62,6 @@ class _StoryViewScreenState extends State<StoryViewScreen>
     if (currentStoryIndex < currentUser.story.stories.length - 1) {
       setState(() {
         currentStoryIndex++;
-        // Ensure storyLoadingStatus has an entry for the new index
         if (storyLoadingStatus.length <= currentStoryIndex) {
           storyLoadingStatus.add(true);
         }
@@ -78,7 +77,6 @@ class _StoryViewScreenState extends State<StoryViewScreen>
     if (currentStoryIndex > 0) {
       setState(() {
         currentStoryIndex--;
-        // Just in case (though likely already exists)
         if (storyLoadingStatus.length <= currentStoryIndex) {
           storyLoadingStatus.add(true);
         }
